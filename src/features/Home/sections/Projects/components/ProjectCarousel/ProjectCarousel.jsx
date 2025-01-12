@@ -12,7 +12,7 @@ const ProjectCarousel = ({ data }) => {
 		<Slider className='project-slide' {...settings}>
 			{data.map((item) => (
 				<div key={item.id} className='item-container'>
-					<div key={item.id} className='item'>
+					<div className='item'>
 						<img src={item.img} alt='' />
 						<h5>{item.title}</h5>
 					</div>
