@@ -249,3 +249,26 @@ export const sections = [
 		data: branding,
 	},
 ];
+
+export const navItems = [
+	{
+		title: 'home',
+		path: '/#hero',
+	},
+	{
+		title: 'projects',
+		path: '/#projects',
+	},
+	{
+		title: 'works',
+		path: '/#works',
+	},
+	{
+		title: 'testimonials',
+		path: '/#testimonials',
+	},
+	{
+		title: 'contact',
+		path: '/#contact',
+	},
+];
